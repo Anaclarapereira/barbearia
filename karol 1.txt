@@ -1,0 +1,2 @@
+O cliente tem que ter a possibilidade de escolher a hora data, o serviço e o profissional. Cada serviço vai ter seu tempo fixo. Opção de cadastrar um novo serviço. Opção de excluir o barbeiro caso saia e entrar outro.
+Opção de excluir o barbevio (caso saia) e entrar outro.
