@@ -21,13 +21,7 @@ include "../connection.php";
                     <a class="nav-link active" href="../index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="../Agenda/index.php">Agenda</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Usuario/index.php">Usuários</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../Agendamento/index.php">Agendamentos</a>
+                    <a class="nav-link" href="index.php">Lista de agendamentos</a>
                 </li>
                
             </ul>
@@ -36,7 +30,6 @@ include "../connection.php";
 
   <div class="container mt-3">
     <h2>Lista de Agendamentos</h2>
-    <a href="agendar.php"><button class='btn btn-primary'>Criar Agendamento</button></a>
     <table class="table table-striped">
       <thead>
         <tr>

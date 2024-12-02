@@ -70,8 +70,8 @@ include "../connection.php";
             </div>
             <div class="botoes">
                 <a href="Cadastrar_Usuarios.php" class="btn btn-success">+</a>
-            <a href="index.php" class="dark">Voltar</a>
-            <button type="submit" class="dark">Continuar</button>
+            <a href="index.php" class="btn btn-primary">Voltar</a>
+            <button type="submit" class="btn btn-primary">Continuar</button>
             </div>
         </form>
     </div>
