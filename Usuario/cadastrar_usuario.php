@@ -1,6 +1,6 @@
 <?php
 include "../connection.php";
-header("location: preparar_cadastro.php?status=1"); 
+
 echo "<pre>";
 
 print_r($_POST);
@@ -24,7 +24,7 @@ echo "<br>chave_pix $chave_pix";
 echo "<br>numero_conta $numero_conta";
 echo "<br>numero_agencia $numero_agencia";
 
-// exit('<br>não inserir');
+exit('<br>não inserir');
 
 
 $sql_usuario = "INSERT INTO usuarios (nome , email, data_de_nascimento, id_grupo)
@@ -52,7 +52,7 @@ VALUES ('$nome_do_banco', '$numero_agencia', '$numero_conta', '$chave_pix', $id_
 
 
 if ($conn->query($sql_dados_bancarios) === TRUE) {
-  header("location: preparar_cadastro.php?status=1"); 
+  echo "New record created successfully";
 } else {
   echo "Error: " . $sql_dados_bancarios . "<br>" . $conn->error;
 }
