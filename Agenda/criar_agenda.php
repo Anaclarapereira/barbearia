@@ -29,7 +29,7 @@ function incluirAgenda($dia_da_semana, $id_usuario, $horario, $conn){
     $sql_agenda = "INSERT INTO agendas (dia_da_semana , id_usuario, horario)
     VALUES ($dia_da_semana, $id_usuario, '$horario')";
 
-    if ($conn->query($sql_agenda) === TRUE) {
+    if ($conn->query($sql_agendas) === TRUE) {
     echo "New record created successfully";
     } else {
     echo "Error: " . $sql_agenda . "<br>" . $conn->error;
@@ -54,7 +54,5 @@ echo "<h1>Geração de agendamentos do segundo horário!</h1>";
 for($i = 0; $i < $qnt_de_agendamento; $i++){
 
     echo "\n Criado agendamento no horario para: " . date('H:i', $acumulado);
-    $horario = date('H:i', $acumulado);
-    incluirAgenda($dia_da_semana, $id_usuario, $horario, $conn);
     $acumulado = $acumulado + 1800;
 }
