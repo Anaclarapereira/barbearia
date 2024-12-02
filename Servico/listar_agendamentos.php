@@ -87,7 +87,7 @@ $result = $conn->query($sql);
                                 <input type='hidden' name='id_usuario' value='".$row['id_usuario']."'>
                                 <input type='hidden' name='id_agenda' value='".$row['id_agenda']."'>
                                 <input type='hidden' name='data' value='$data_agendamento'>
-                                <a  href='insert_agendamento.php?id_agenda=".$row['id_agenda']."&data=".$data_agendamento."&id_usuario=".$row['id_usuario']."'  ><button type='submit' class='btn btn-dark'>Agendar</button></a>
+                                <a  href='insert_agendamento.php?id_agenda=".$row['id_agenda']."&data=".$data_agendamento."&id_usuario=".$row['id_usuario']."'  ><button type='submit' class='btn btn-primary'>Agendar</button></a>
                             </td>
                     </tr>
                     ";
