@@ -143,8 +143,8 @@
             <h1>Barbearia Realeza</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="Usuario/index.html">Cadastro</a></li>
+                    <li><a href="index.php">Início</a></li>
+                    <li><a href="Usuario/index.php">Cadastro</a></li>
                     <li><a href="Agenda/index.php">Agenda do Barbeiro</a></li>
                     <li><a href="Agendamento/index.php">Agendamentos</a></li>
                 </ul>
@@ -186,36 +186,30 @@
             <h2>Conheça Nossos Barbeiros</h2>
             <div class="barbeiros-lista">
                 <div class="barbeiro">
-                    <h3>Karol</h3>
+                    <h3>Karol Santiago</h3>
                     <p>Especialista em cortes modernos e estilos exclusivos.</p>
                 </div>
                 <div class="barbeiro">
-                    <h3>Nathaly</h3>
+                    <h3>Nathaly Mendonça</h3>
                     <p>Expert em cortes femininos e cuidados com a barba.</p>
                 </div>
                 <div class="barbeiro">
-                    <h3>Gb do corte</h3>
+                    <h3>Gb du corte</h3>
                     <p>Especialista em cortes clássicos e cabelo com estilo.</p>
                 </div>
                 <div class="barbeiro">
-                    <h3>Matheus</h3>
+                    <h3>Jc cardoso</h3>
                     <p>Barbeiro profissional com vasta experiência em cuidados masculinos.</p>
                 </div>
                 <div class="barbeiro">
-                    <h3>Anderson</h3>
+                    <h3>Hanna Abril</h3>
                     <p>Cortes precisos e personalização para todos os tipos de cabelo.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Informações de Contato -->
-    <section id="contato-info">
-        <div class="container">
-            <p><strong>Agende seu Atendimento:</strong> (21) 9997-6789 (WhatsApp)</p>
-        </div>
-    </section>
-
+   
     <!-- Seção de galeria de imagens -->
     <section id="galeria">
         <div class="container">
