@@ -65,6 +65,27 @@ $result = $conn->query($sql);
 </head>
 <body>
 
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="../index.php">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../Agenda/index.php">Agenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Usuario/index.php">Usuários</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Agendamento/index.php">Agendamentos</a>
+                </li>
+               
+            </ul>
+        </div>
+    </nav>
+
 <div class="container mt-3">
     <h2>Lista de Agendamentos Disponíveis para o dia: <?php echo $data_agendamento; ?></h2>
     <table class="table table-striped">

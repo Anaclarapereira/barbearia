@@ -18,18 +18,25 @@ include "../connection.php";
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="../index.php">Início</a>
+                    <a class="nav-link " href="../index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Lista de agendamentos</a>
+                    <a class="nav-link " href="../Agenda/index.php">Agenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Usuario/index.php">Usuários</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../Agendamento/index.php">Agendamentos</a>
                 </li>
                
             </ul>
         </div>
     </nav>
-
   <div class="container mt-3">
     <h2>Lista de Agendamentos</h2>
+    <a href="agendar.php"><button class='btn btn-dark'>Criar Agendamento</button></a>
+  
     <table class="table table-striped">
       <thead>
         <tr>
@@ -54,7 +61,7 @@ include "../connection.php";
                       <td>".$row['cliente']."</td>
                       <td>".$row['barbeiro']."</td>
                       <td>".$row['data']." - " .$row['horario']."</td>
-                      <td><button class='btn btn-danger'>Excluir</button></td>
+                      <td><button class='btn btn-dark'>Excluir</button></td>
                     </tr>
                   ";
               }

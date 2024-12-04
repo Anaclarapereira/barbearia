@@ -26,7 +26,13 @@ include "../connection.php";
                     <a class="nav-link active" href="../index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.php">Lista de agendamentos</a>
+                    <a class="nav-link active" href="../Agenda/index.php">Agenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Usuario/index.php">Usuários</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Agendamento/index.php">Agendamentos</a>
                 </li>
                
             </ul>
@@ -69,9 +75,8 @@ include "../connection.php";
                 
             </div>
             <div class="botoes">
-                <a href="Cadastrar_Usuarios.php" class="btn btn-success">+</a>
-            <a href="index.php" class="btn btn-primary">Voltar</a>
-            <button type="submit" class="btn btn-primary">Continuar</button>
+            <a href="index.php" class="btn btn-dark">Voltar</a>
+            <button type="submit" class="btn btn-dark">Continuar</button>
             </div>
         </form>
     </div>

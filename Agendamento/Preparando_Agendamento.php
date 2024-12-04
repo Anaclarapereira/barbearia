@@ -65,15 +65,20 @@ $result = $conn->query($sql);
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="../Agendamento/agendar.php">Criar Agendamento</a>
+                    <a class="nav-link active" href="../index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Usuario/index.html">Cadastrar Usuário</a>
+                    <a class="nav-link active" href="../Agenda/index.php">Agenda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Usuario/index.php">Usuários</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Agendamento/index.php">Agendamentos</a>
                 </li>
                
             </ul>
