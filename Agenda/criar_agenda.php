@@ -29,7 +29,7 @@ function incluirAgenda($dia_da_semana, $id_usuario, $horario, $conn){
     $sql_agenda = "INSERT INTO agendas (dia_da_semana , id_usuario, horario)
     VALUES ($dia_da_semana, $id_usuario, '$horario')";
 
-    if ($conn->query($sql_agendas) === TRUE) {
+    if ($conn->query($sql_agenda) === TRUE) {
     echo "New record created successfully";
     } else {
     echo "Error: " . $sql_agenda . "<br>" . $conn->error;
