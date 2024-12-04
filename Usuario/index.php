@@ -29,13 +29,13 @@ $grupos = [1=> "Administrador", 2 => "Barbeiro", 3 => "Clientes"];
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="../index.php">Início</a>
+                    <a class="nav-link " href="../index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="../Agenda/index.php">Agenda</a>
+                    <a class="nav-link " href="../Agenda/index.php">Agenda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Usuario/index.php">Usuários</a>
+                    <a class="nav-link active" href="../Usuario/index.php">Usuários</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../Agendamento/index.php">Agendamentos</a>
@@ -44,7 +44,7 @@ $grupos = [1=> "Administrador", 2 => "Barbeiro", 3 => "Clientes"];
             </ul>
         </div>
     </nav>
-    </nav>
+    
 
 <div class="container mt-3">
   <h2>Lista de usuários</h2>   

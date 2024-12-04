@@ -24,7 +24,7 @@ echo "<br>chave_pix $chave_pix";
 echo "<br>numero_conta $numero_conta";
 echo "<br>numero_agencia $numero_agencia";
 
-exit('<br>não inserir');
+
 
 
 $sql_usuario = "INSERT INTO usuarios (nome , email, data_de_nascimento, id_grupo)

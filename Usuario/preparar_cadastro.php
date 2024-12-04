@@ -15,10 +15,10 @@
         <div class="container-fluid">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="../index.php">Início</a>
+                    <a class="nav-link " href="../index.php">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="../Agenda/index.php">Agenda</a>
+                    <a class="nav-link " href="../Agenda/index.php">Agenda</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../Usuario/index.php">Usuários</a>
@@ -71,7 +71,7 @@
 
             <div class="mb-3 mt-3">
                 <label for="email">Data de Nascimento:</label>
-                <input type="text" class="form-control" id="data_de_nascimento" placeholder=""
+                <input type="date" class="form-control" id="data_de_nascimento" placeholder=""
                     name="data_de_nascimento">
             </div>
 
